@@ -1,7 +1,9 @@
+@"
 node_modules/
 .env
-.env.local
-*.log
+.env.*
 dist/
 build/
-.DS_Store
+coverage/
+*.log
+"@ | Set-Content .gitignore
